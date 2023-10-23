@@ -506,6 +506,14 @@ Kilde: https://webdesign.tutsplus.com/how-to-implement-a-load-more-button-with-v
 }
 
 
+.products h2, .products p {
+    display: block;
+}
+
+.products p {
+    margin-bottom: 3rem;
+}
+
 /* Stil for hvert enkelt produkt */
 .product-item {
   border: 1px solid #e0e0e0;
