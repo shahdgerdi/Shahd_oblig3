@@ -152,7 +152,6 @@ på mobil ved hjelp av media query: */
 
 
 
-
 /* Stil for mobile bottom bar */
 
 .mobile-bottom-bar {
@@ -336,20 +335,6 @@ padding:1.5rem;
   list-style: none;
   text-decoration-line: none;
 }
-
-
-
-
-
-/* Jeg la til "Home" i nav elementet - men velger å fjerne det
-på mobil ved hjelp av media query: */
-
-@media (max-width: 768px) {
-  .navbar li:first-child {      /*Velger det første <li> elementet innenfor .navbar */
-      display: none;
-  }
-}
-
 
 
 
