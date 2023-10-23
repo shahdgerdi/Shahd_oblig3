@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Head området -->
+<!-- Head området til nettsiden -->
 <head>
+    <!-- Definerer metainformasjon og stilark i head-seksjonen -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Inkluderer link til normalize.css og Font-awesome -->
+    <!-- Lenker til Normalize.css og Font Awesome-stiler -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">
 
-    <!-- Aktiverer CSS for siden -->
+
+    <!-- Lenker til egendefinerte CSS-stiler -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- Setter tittelen på nettstedet -->
     <title>Shoepping.no</title>
 </head>
+
+
 
 <!-- Body av HTML-dokumentet -->
 <body>
@@ -21,7 +30,7 @@
     <!-- Grid-container som inneholder alt innhold -->
     <div id="grid-container">
 
-        <!-- Header Section -->
+        <!-- Header området for nettsiden -->
         <header>
 
             <!-- Navigation menu and logo -->
@@ -51,7 +60,9 @@
                 </ul>
 
                 <!-- Search og ikoner i navigasjonsmenyen -->
-                <section class="search-and-icons" aria-label="Search and Icons">
+
+               
+                <section class="search-and-icons" aria-label="Search and Icons">             <!-- Ønsker ikke å bruke h1-h6 overskrifter til seksjonene, så bruker aria-label et alternativ for å gi beskrivende navn til seksjonene uten å gjøre synlige endringer i designet. -->
                     <input type="text" placeholder="SEARCH">
                     <a href="index.html">
                         <i id="arrow-back" class="fas fa-arrow-left"></i>
@@ -71,14 +82,14 @@
                 <!-- Bilde Container: Inneholder både miniatyrbildene og hovedbildet -->
                 <aside class="image-column">
 
-                    <!-- Miniatyrbilder -->
+                <!-- Miniatyrbilder som blir plassert ved siden av store hovedbildet -->
                     <section class="thumbnail-images" aria-label="Thumbnail Images">
                         <img src="https://placehold.co/150x100" alt="Sneakers - Limited Edition">
                         <img src="https://placehold.co/150x100" alt="Thumbnail Image 2">
                         <img src="https://placehold.co/150x100" alt="Thumbnail Image 3">
                     </section>
 
-                    <!-- Hovedbilde for produktdetalj siden -->
+                <!-- Hovedbilde for produktdetalj siden -->
                     <img class="main-image" src="https://placehold.co/600x400" alt="Sneakers - Limited Edition">
                     <span class="image-navigation"><i class="fas fa-angle-left"></i> 1 av 3 <i class="fas fa-angle-right"></i></span>
                 </aside>
@@ -90,20 +101,20 @@
                     <p>NOK 1,057 <s>NOK 1,499</s> <span>29% OFF</span></p>
                     <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> (911)</p>
 
-                    <!-- Oppretter en size option label -->
+                <!-- Oppretter en size option label -->
                     <label for="size">Size options</label>
                     <select id="size">
                         <option value="" disabled selected>Select Size</option>
                     </select>
 
-                    <!-- Oppretter "add to cart/favorites label" -->
+                <!-- Oppretter "add to cart/favorites label" -->
                     <button>Add to Cart</button>
                     <button>Add to Favorite</button>
                 </article>
 
             </section>
 
-            <!-- Mobilbunnmeny -->
+            <!-- Mobilbunnmeny som er kun tilgjengelig som mobilvisning-->
             <nav class="mobile-bottom-bar">
                 <a href="#"><i class="fas fa-home"></i></a>
                 <a href="#"><i class="fas fa-heart"></i></a>
@@ -122,12 +133,15 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </section>
+
             <!-- Newsletter section -->
             <section class="newsletter">
                 <h2>NEWSLETTER</h2>
                 <input type="email" placeholder="YOUR EMAIL ADDRESS">
                 <button>Be a member now!</button>
             </section>
+
+
             <!-- Social media links section -->
             <section class="socials">
                 <h2>Our socials</h2>
