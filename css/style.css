@@ -550,7 +550,7 @@ Kilde: https://webdesign.tutsplus.com/how-to-implement-a-load-more-button-with-v
 }
 
 #load-more[disabled] {
-  background-color: #eaeaea !important;
+  background-color: #eaeaea;
 }
 
 .product-item a {
@@ -665,10 +665,6 @@ Kilde: https://webdesign.tutsplus.com/how-to-implement-a-load-more-button-with-v
 .image-column, .info-column {
     margin: 0 15px;  /* Legger til 15px margin på hver side av kolonnene */
 }
-
-
-
-
 
 
 
